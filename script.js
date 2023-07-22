@@ -1,3 +1,3 @@
-const x = document.getElementsByTagName("p");
+const [x] = document.getElementsByTagName("p");
 
-x.innerHTML = "DangTran"
+x.innerHTML = "DangTran";
