@@ -1,0 +1,100 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.App{
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+.partList{
+    position: relative;
+}
+
+.avatarApp{
+    flex-basis: 200%;
+    position: relative;
+}
+
+.avatar{
+    height: 20%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px; /* required */
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aqua;
+    margin: 4px;
+    background-color: white;
+}
+
+.avatarComponent{
+    position: absolute;
+    width:90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+}
+
+.eachPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partbtn{
+    width: 80%;
+    height: auto;
+}
+
+.imgbtn{
+    max-width: 60px;
+    border: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    margin: 2px;
+    background-color: lightgrey;
+}
+
+.imgbtn:hover{
+    background-color: grey;
+    max-width: 70px;
+    border: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: yellow;
+    margin: 2px;
+}
+
+.imgbtn:active{
+    background-color: lightgoldenrodyellow;
+}
+
+.eachList{
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aqua;
+    margin: 10px;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+
+.randombtn{
+    position: absolute;
+    bottom: 8px;
+    left: 130px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+    .avatar{
+        position: relative;
+    }
+} */
